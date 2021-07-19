@@ -1,0 +1,41 @@
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+
+
+.margin,
+.border,
+.padding,
+.content {
+  padding: 0 50px 5px;
+  font-size: 18px;
+  line-height: 2;
+}
+.margin {
+  background-color: red;
+  border: 1px solid blue;
+
+}
+.border {
+  background-color: green;
+  border: 1px solid #888;
+
+}
+.padding {
+  background-color: #C2CF8A;
+  border: 1px solid #888;
+
+}
+.content {
+  background-color: #8BB5C0;
+  border: 1px solid #888;
+
+  min-width: 150px;
+}
